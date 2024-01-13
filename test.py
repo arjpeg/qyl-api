@@ -2,7 +2,7 @@ import os
 import requests
 
 body = {
-    'username': 257638,
+    'username': os.getenv("USERNAME"),
     'password': os.getenv("PASSWORD") 
 }
 
